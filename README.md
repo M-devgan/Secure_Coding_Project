@@ -5,8 +5,6 @@ This project was developed as part of the Code Security Audit assignment. The ob
 
 The project includes frontend components developed using HTML, CSS, and JavaScript, along with a Python script used for security analysis. Additionally, GitHub Actions workflows have been implemented to automate code quality checks and security scanning.
 
----
-
 ## 2. Objectives
 The main objectives of this project are:
 - To identify insecure coding practices within the application
