@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+.search-container {
+    margin-bottom: 1.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #003366;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 2px solid #003366;
+}
+
+#error {
+    color: red;
+}
+
+#results {
+    overflow-x: auto; /* For small screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.6rem;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 0.4rem;
+        font-size: 0.9rem;
+    }
+}
